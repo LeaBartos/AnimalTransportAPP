@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { RoutesNames } from "../constants";
+import { PRODUKCIJA, RoutesNames } from "../constants";
 import { useNavigate } from "react-router-dom";
 
 export default function NavBarAnimalTransport() {
@@ -16,7 +16,7 @@ export default function NavBarAnimalTransport() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link onClick={() => navigate(RoutesNames.HOME)}>Početna</Nav.Link>
-                        <Nav.Link href="http://leabartos-001-site1.ptempurl.com/swagger/index.html" target="_blank">
+                        <Nav.Link href={PRODUKCIJA + "/swagger"} target="_blank">
                             Swagger
                         </Nav.Link>
                         <NavDropdown title="Programi" id="basic-nav-dropdown">

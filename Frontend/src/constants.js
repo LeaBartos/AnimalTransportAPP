@@ -5,4 +5,4 @@ export const RoutesNames = {
     NARUCITELJ_PROMJENA: "/narucitelji/:sifra",
 };
 
-export const BACKEND_URL = "http://leabartos-001-site1.ptempurl.com/api/v1";
+export const PRODUKCIJA = "http://leabartos-001-site1.ptempurl.com";

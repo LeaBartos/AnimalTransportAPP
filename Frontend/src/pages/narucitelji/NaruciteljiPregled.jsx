@@ -37,7 +37,9 @@ export default function NaruciteljiPregled() {
 
     return (
         <Container>
-            <Link to={RoutesNames.NARUCITELJ_NOVI}>Dodaj novog naručitelja</Link>
+            <Link to={RoutesNames.NARUCITELJ_NOVI} className="btn btn-success siroko">
+                Dodaj novog naručitelja
+            </Link>
             <Table striped bordered hover responsive>
                 <thead>
                     <tr>
